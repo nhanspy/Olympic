@@ -1,0 +1,12 @@
+1 , tim ucln bcnn a va b
+2,  nhap vao so n , hay chuyen tu he thap phan sang he nhi phan
+3, nguoc lai (nhi phan sang thap phan)
+4, cho 1 mang n so duoc sasp xet tang dan. nhap so k . chen k vao mang , sao cho mang can duoc sap xep tang dan , ma k sap xep lai mang
+vd : 1 n = 5 . 1 2 3 4 5 k = 6
+	2 k = 5
+	3 1 3 4 5 6 k = 2 
+5. nhap mang n phan tu va nhap vao mang tiep theo m phan tu, hay chon 2 mang thanh mang C sao cho mang C duoc sap xet tang dan (mang A , B duoc sap xet tang dan)
+6. nhap n la so le, hay tao ra ma tran ma phương
+7. cho 1 số n , bằng cách xóa 1 hoặc 1 số chử số n , ta sẽ có được 1 số mới hãy kiểm tra xem ta có tạo được bao nhiêu chử số mới mà chia hết cho 3.
+vd n = 1005 , 
+8 dao nguoc mang A khong dung 2 mang.
