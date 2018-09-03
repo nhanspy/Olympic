@@ -3,7 +3,6 @@
 #include <algorithm>
 using namespace std ;
 void quicksort(int *a, int l , int r) {
-	srand(time(NULL));
 	int key = a[l + rand() % (r-l+1)] ;
 	int i = l , j = r ;
 	
