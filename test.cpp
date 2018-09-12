@@ -1,12 +1,12 @@
 #include <iostream>
 #include <math.h>
 #include <algorithm>
+#include <string>
 using namespace std;
-int n ;
-void haha() {
-	cout << n ;
-}
+//char n ;
 int main () {
-	cin >> n ;
-	haha() ;
+	string n ;
+	n = " ";
+	int m = n[0] ;
+	cout << m ;
 }
