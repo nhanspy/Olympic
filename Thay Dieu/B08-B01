@@ -2,7 +2,8 @@ B08. Cho day a da co thu tu. tuy nhien co 2 vi tri trong day gia tri bi hoan doi
 vd: a = 3 5 6 9 8 7 vitri 6 , 4 . yeu cau so luong phan tu toi da la 3tr , s = 1s, mang khong co gia tri trung
 
 B09. cho cai lich tau chay bao gom tau den va tau di. tim so duong ray it nhat de cac tau co the den va di ma khong delay bat cu duong tau
-den 2.0 2.1 3.0 3.2 3.5 5.0 2.3 2.4 3.2 4.3 4.0 5.2
+den 	2.0 2.1 3.0 3.2 3.5 5.0 
+	2.3 2.4 3.2 4.3 4.0 5.2
 out  2.
 3 1 2 3
 3.1 3.3 5
