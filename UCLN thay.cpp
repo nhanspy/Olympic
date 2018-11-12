@@ -13,5 +13,7 @@ main()
 {
 	int a, b;
 	cin >> a >> b;
-	cout << UCLN(a, b);
+    int tmp = UCLN(a, b);
+	cout << tmp;
+    cout << endl << (a*b)/tmp;
 }

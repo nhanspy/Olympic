@@ -1,0 +1,69 @@
+1. cho 1 bộ gồm n số 1 -n . đếm số cách chia bộ n thành tổng khác nhau. tính số cách chia.
+2. xác định số thứ k. 
+3. khi minh theem 1 phần tử thứ n + 1 . 
+- thêm vào sau.
+- chèn vào các phần tử phía trước
+- 
+//
+1 so nguyen sque .. neu no khong chia het cho 1 so chinh phuong khac 1 .
+cho 1 so sque x tim so phep nhan khac nhau de thanh so x. vd x = 30 co 5 cach 
+1*30 
+2*15
+3*10 
+5*6 
+2*3*5
+
+B1. ma trận n x n .
+mỗi cột chọn 1 ô mỗi hàng chọn 1 ô . tổng là max .
+vd:
+3 1 2
+1 1 2
+1 4 2
+
+4 3 1 2 4
+2 5 1 4 6
+2 4 6 1 4
+6 3 1 4 1
+5 1 3 5 1
+
+1 : 1
+2 : 10
+3 : 11
+4 : 100
+5 : 101
+
+
+chọn 3 , 2 , 4
+
+b2: cho dạxy a gồm n phần tử hãy cho biết số nguyên z có thể viết dưới dạng tổng của các số trong a hay không. 
+(mỗi số có thể xuất hiện nhiều lần).
+vd: 7 2 
+12 6 3 9 27 15 51
+21
+4
+out : YES NO
+
+B3. tren truc so cho tap t . 1 - n 
+gồm n điễm đôi một khác nhau gọi là tâm đối xứng.
+Với mỗi 1 điễm x trên trục số. và với mỗi điễm ti trên tập t. ta có thể lấy đối xứng x qua ti . 
+đễ thu được điểm i
+? hãy cho biết từ điểm s cho trước . có thể chọn từ t 1 số điểm để đến được điểm b hay không..
+
+b1.
+cho 2 bước anpha và bêta . ở 2 bờ sông . anpha co m thanh phố 1 - m . beta có n thành phố 1 - n . Mỗi thành phố lúc này có kết nghĩa 
+với một số thành phố ở bên kia . cần xây dựng các cầu nối 2 thành phố với yêu cầu không cách nhau và mỗi thành phố 
+chỉ có mỗi cây cầu nối với nó.
+Hãy chỉ ra cách bắc cầu để số  cầu nhiều nhất. 
+inp : m , n , k ; k là số quan hệ 
+k dòng tiếp theo mỗi dòng tương ứng với mỗi quan hệ . ai - bj
+
+B2. Cho n tam giac mỗi tam giác gồm 3 điểm . Tìm tạm giác chứa nhiều tàm giác trong nó nhất.
+cách làm : sắp xếp tam giác theo diện tích . Sau đó đếm các tam giác trong 
+
+B3. Cho file fi chứa N số nguyên. hay in ra file fo số các số nguyên khác nhau trong file fi
+
+B4. Đo đạc . khoảng cách trung bình giữa các phương tiện tham gia giao thông vào giờ cao điểm và nhận được dãy số d1 - dn. 
+trong đó di là khoảng cách trung bình giữa các phương tiên trên đoạn đường thứ i . 
+2 đoạn i j có tình trạng giao thông giống nhau thì độ lệch |di - dj| nhỏ bấy nhiêu. 
+hãy tính đồ lệch cũa 2 đoạn đường có tình trạng giao thông giống nhau nhat 
+

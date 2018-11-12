@@ -1,0 +1,44 @@
+cho 2 xau x (1 - n) va f (1 - m) . co 3 thao tác (biến đổi) 
+I - i - c
+R - i - c
+d - i
+hay tìm số ít nhất sao cho biến cái xâu x thành xâu f
+input : 2 chuổi x - f 
+out n , k la so cách biến đổi . 
+goi Lij là số f biến đổi ít nhất . từ f1 - fj .
+L 0 j = j;
+L i 0 = i;
+neu xi = fj thi minh co Lij = Li-1j-1;
+neu xi != fj co 3 casch xu ly.
+- xoa ki tu xi.
+- Lij = Li-1,j + 1;
+thay the Xi boi Fj : Lij = Li-1j-1 + 1;
+- chen fj vao sau xi khi do Lij = Lij-1 + 1;
+Lay min trong 3 truong hop.
+2. Co n loai tien. Co menh gia tu 1 - n . can doi m dong tien thanh ra cac loai tien sao cho so dong tien lay it nhat. Goi L i t la so to it nhat de doi t dong tu cac loai tien tu i loai.
+t < ai : L i t = L i-1 t.
+t >= ai : L i t = min (L i-1 t,L i t-ai + 1);
+3. cho bieu thuc a1.a2.a3...an . Voi . la phep cong hoac nhan. bay gio hay them cac dau ngoac vao bieu thuc de bieu thuc thu duoc co ket qua lon nhat.
+vd : 1 + 1 * 2
+goi f i j la gia tri lon nhat . khi xet cac bieu thuc tu vi tri i - j.
+f i i = ai . f i i+1 = ai.ai+1 .
+i < j - 1. f i j = max(f i k . f k+1 j); voi k (i + 1 to j - 1);
+//
+1. cho mang co m dong n cot . m,n <= 100;
+2. co n lọ hoa . k bó hoa . cần cắm k bó vào n lọ. sao cho tổng giá trị thẩm mỹ là lớn nhất. giá trị thẩm mỉ khi cắm hoa i vào lọ j .
+yêu cầu hoa có thứ tự nhỏ sẽ cắm trước. mỗi bình chỉ có một hoa . 
+vd h1 - b1 
+3 5 4 7 4;
+9 6 7 5 9;
+3 5 1 7 9;
+goi L i j la gia tri tham mi khi cam hoa i vao lo j .
+neu i = j V 11 + V 22 + V jj;
+neu bong nhieu hon binh . k cam .
+
+s
+
+
+
+
+
+
