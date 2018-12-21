@@ -67,3 +67,18 @@ trong đó di là khoảng cách trung bình giữa các phương tiên trên đ
 2 đoạn i j có tình trạng giao thông giống nhau thì độ lệch |di - dj| nhỏ bấy nhiêu. 
 hãy tính đồ lệch cũa 2 đoạn đường có tình trạng giao thông giống nhau nhat 
 
+SONGUYENTO
+cho doan ai bi hãy tính ui là số ước số và vi là tổng các ước số.
+input : t : số bộ dữ liệu
+- mỗi dòng chưa ai bi
+out : t dòng mỗi dòng chứa 2 số ui vi.
+vd : 2
+1 2
+4 5
+out:
+3 4
+5 13
+
+trường hợp t < 10 test ai bi < 1000; 
+t < 10 ab < 106;
+t < 106 aibi < 106
